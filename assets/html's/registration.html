@@ -1,0 +1,102 @@
+<Html>
+    <head>
+        <Title>
+            Registration page
+        </Title>
+        <style>
+            *{
+                border-radius: 5px;
+            }
+            body{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                font-size: 1.1rem;
+                font-weight: bold;
+                font-family: sans-serif;
+            }
+            .container{
+                background-color: #47b5ff;
+                width: 50%;
+                margin: auto;
+                position: relative;
+                top: 40px;
+                display: inline-block;
+                padding: 20px;
+                border: 2px solid inherit;
+            }
+            .div1  label{
+                display: block;
+                background-color: #dff6ff;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .div1 input{
+                width: 100%;
+            }
+            #gender{
+                display: block;
+                background-color: #dff6ff;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .div2 label{
+                display: inline;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            .div3  label{
+                display: block;
+                background-color: #dff6ff;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .div3 input{
+                width: 100%;
+            }
+            #register{
+                display: inline;
+                margin-top: 10px;
+                background-color: #31e1f7;
+            }
+            
+           
+        </style>
+    </head>
+    <body >
+        <div class="container">
+            <form action="/register" method="POST"></form>
+                <div class="div1">
+                    <label>Firstname :</label>
+                    <input type=" text" name = "firstname" size="16"/>
+                    <label>Lastname :</label>
+                    <input type=" text" name = "lastname" size="16"/>
+                </div>
+                <div class="div2">
+                    <label id="gender">   
+                        Gender :  
+                    </label>
+                    <input type="radio" name="gender" id="male"/> <label  for="male">Male </label>
+                    <input type="radio" name="gender" id="female"/> <label  for="female">Female</label>
+                </div>
+                
+                <div class="div3">
+                    <label>   
+                        Phone :  
+                    </label>  
+                    <input  type="text" name="country code"  value="+91" size="2"/>   
+                    <label for="">Email:</label>  
+                    <input type="email" id="email" name="email"/>
+                    <label for="">Password:</label>  
+                    <input type="Password" class="form-control" placeholder="password"value="" name="password"> 
+                    <label for="">confirm password:</label>  
+                    <input type="Password" class =  "form-control" placeholder="Confirm password *" value="" name="confirmpassword">  
+                    <input id="register" type="submit"  class="btnRegister" value="Register"/> 
+                </div> 
+            </form>  
+        </div>
+</body>  
+</html>

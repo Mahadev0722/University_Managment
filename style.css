@@ -1,0 +1,221 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+h1{
+    margin: 0;
+}
+
+.body{
+    background: url("./assets/images/background-IMAGE.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-bottom: 5px;
+}
+.box{
+    opacity: 0.9;
+    background-color: lightblue;
+    text-align: justify;
+}
+.box2{
+    padding: 5px 20px;
+    margin: 0px 10px;
+}
+.collegeName{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    background-color: aqua;
+}
+
+.description{
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+    margin: 20px 0px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.description a{
+    text-decoration: none;
+    color: blue;
+    border: 1px solid inherit;
+    border-radius: 20px;
+}
+.description h2{
+    display: inline-block;
+    border: 2px solid inherit;
+    border-radius: 20px;
+    margin:5px 0 0 10px;
+    padding: 5px;
+    background-color: #fff;
+}
+.description p{
+    padding: 5px;
+    margin: 0;
+}
+.d-1{
+    
+    border-radius: 15px;
+    width: 50%;
+}
+.d-2{
+    
+    border-radius: 15px;
+    width: 50%;
+}
+.d-3{
+    
+    border-radius: 15px;
+    width: 50%;
+}
+.d-4{
+    
+    border-radius: 15px;
+    width: 50%;
+}
+.footer{
+    padding-top: 30px;
+    padding-left: 50px;
+    background-color: rgb(3, 28, 77);
+    display: flex;
+    gap: 5%;
+    position: relative;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 10px;
+    height: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+  .fa:hover{
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: -webkit-linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+    color: white;
+  }
+.gallery h1{
+    font-family: 'Cinzel', serif;
+    font-size: 10rem;
+    opacity: 0.7;
+    background: -webkit-linear-gradient(#0d0e0d, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.header{
+    background-color:lightblue;
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.logo{
+    margin-left: 20px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.menuBar{
+    background-color:  white;
+    padding-top: 10px;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+    height: 30px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.numbers{
+    width: 90%;
+    border-radius: 20px;
+    background-color:lightblue;
+    margin: auto;
+    opacity: 0.9;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.numbers h2{
+    font-size: 2rem;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.numbers table{
+    margin: auto;
+}
+.numbers p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.para{
+    margin-top: 2px;
+}
+table,tr, td{
+    background-color: white;
+    border: 2px solid inherit;
+    border-radius: 20px;
+}
+
+
+.gallery{
+    text-align: center;
+}
+.description :hover{
+    background-color:rgb(83, 188, 210);
+}
+span:hover{
+    background-color:rgb(83, 188, 210);
+    font-size: 1.2rem;
+}
+
+#main-image{
+    height: 420px;
+    width: 80%;
+    margin-top: 2px;
+    border: 2px solid darkgrey;
+}
+#contact{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: block ;
+    color: white;
+}
